@@ -1,0 +1,49 @@
+li,
+ul,
+a {
+  text-decoration-line: none;
+}
+#header {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #000;
+  position: relative;
+  bottom: 20px;
+  right: 12px;
+  padding: 12px;
+}
+#header a {
+  padding: 12px;
+  border-right: 1px solid #000;
+}
+#login {
+  float: right;
+  position: relative;
+  right: 12px;
+}
+#login a {
+  padding: 12px;
+}
+
+/* heder */
+#logo {
+  text-align: center;
+  font: bold 16px/34px arial;
+}
+
+/* 카테고리 */
+.border {
+  width: 1200px;
+  height: 96px;
+  margin: auto;
+}
+#Category1 {
+  text-align: center;
+  padding: 12px;
+}
+#Category1 a {
+  position: relative;
+  top: 15px;
+  padding: 34px;
+  font: bold 16px/18px arial;
+}
