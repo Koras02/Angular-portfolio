@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { headerComponent } from './app-header/header.component';
-
+ 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
