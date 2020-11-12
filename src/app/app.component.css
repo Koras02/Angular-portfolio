@@ -4,6 +4,9 @@
   padding: 0;
 }
 
-li {
+ul,
+li,
+ol,
+a {
   text-decoration: none;
 }

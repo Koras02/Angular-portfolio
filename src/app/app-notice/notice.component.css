@@ -1,7 +1,43 @@
-.Notice {
-  width: 100%;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-#Notice {
-  width: 100%;
+.Notcie {
+  width: 80%;
+  height: 45vh;
+  border: 1px solid #000;
+  margin: auto;
+}
+#Notcie a {
+  position: relative;
+  bottom: 50px;
+  left: 15%;
+}
+
+table {
+  width: 20%;
+  height: 25vh;
+  float: left;
+  margin: auto;
+  position: relative;
+  bottom: 5%;
+  border: 1px solid #000;
+}
+table tr {
+  float: left;
+  padding: 15px;
+}
+
+table tr:nth-child(2) {
+  position: relative;
+  top: 30px;
+  right: -0px;
+}
+table tr th a:hover {
+  color: red;
+}
+table tr:nth-child(3) {
+  position: relative;
+  top: 50px;
 }

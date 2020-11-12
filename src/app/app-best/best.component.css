@@ -1,0 +1,24 @@
+.best {
+  width: 80%;
+  height: 60vh;
+  margin: auto;
+  border: 1px solid #000;
+}
+.best h1 {
+  text-align: center;
+}
+.best a {
+  width: 10%;
+  height: 20vh;
+  float: left;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 90px;
+  position: relative;
+  top: 12px;
+  left: 100px;
+}
+.best a:nth-child(2) {
+  background: url("../../../images/images/download.jpg") no-repeat;
+  background-size: 130%;
+}

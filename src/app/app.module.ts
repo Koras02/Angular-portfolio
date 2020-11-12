@@ -5,12 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { headerComponent } from './app-header/header.component';
 import { noticeComponent } from './app-notice/notice.component';
+import { bestComponent } from './app-best/best.component';
+import { categoryComponent } from './app-Category/category-component';
+import { videoComponent } from './app-video/app-video.component';
+import { screenComponent } from  './app-screen/scrren.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     headerComponent,
     noticeComponent,
+    bestComponent,
+    categoryComponent,
+    videoComponent,
+    screenComponent,
   ],
   imports: [
     BrowserModule,

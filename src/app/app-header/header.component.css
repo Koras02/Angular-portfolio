@@ -69,4 +69,6 @@ a {
   right: 8px;
   height: 800px;
   border: 1px solid #000;
+  background: url(../../../images/images/Untitled-1.gif) no-repeat;
+  background-size: 102%;
 }
