@@ -9,7 +9,7 @@ import { bestComponent } from './app-best/best.component';
 import { categoryComponent } from './app-Category/category-component';
 import { videoComponent } from './app-video/app-video.component';
 import { screenComponent } from  './app-screen/scrren.component';
-
+import { footerComponent } from './app-footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +20,7 @@ import { screenComponent } from  './app-screen/scrren.component';
     categoryComponent,
     videoComponent,
     screenComponent,
+    footerComponent,
   ],
   imports: [
     BrowserModule,

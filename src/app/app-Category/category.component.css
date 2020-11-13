@@ -1,0 +1,42 @@
+li,
+ul {
+  list-style: none;
+}
+
+.category {
+  width: 80%;
+  height: 60vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+.category h1 {
+  text-align: center;
+}
+
+#list ul li {
+  float: left;
+  padding: 12%;
+  border: 1px solid #000;
+  position: relative;
+  top: 25px;
+  overflow: hidden;
+}
+
+#fix {
+  border: 2px solid #000;
+  width: 7%;
+  border-radius: 50% 50% 50% 50%;
+  height: 90px;
+  float: right;
+  overflow: hidden;
+}
+
+#fix a {
+  position: relative;
+  left: -5px;
+  top: 40%;
+  padding: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
