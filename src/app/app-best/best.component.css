@@ -3,20 +3,21 @@
   padding: 15px;
   height: 60vh;
   margin: auto;
+  overflow: hidden;
 }
 .best h1 {
   text-align: center;
 }
 .best a {
   width: 10%;
-  height: 20vh;
+  height: 18vh;
   float: left;
   text-align: center;
   border: 1px solid #000;
   padding: 90px;
   position: relative;
   top: 12px;
-  left: 150px;
+  left: 100px;
 }
 .best a:nth-child(2) {
   background: url("../img/자료1.jpg") no-repeat;
@@ -25,20 +26,29 @@
   right: -14px;
 }
 .best a:nth-child(2):hover {
-  opacity: 15%;
+  opacity: 30%;
 }
 .best a:nth-child(3) {
   background: url("../img/자료2.jpg") no-repeat;
   background-size: 120% 100%;
   position: relative;
 }
+.best a:nth-child(3):hover {
+  opacity: 30%;
+}
 
 .best a:nth-child(4) {
   background: url("../img/자료3.jpg") no-repeat;
   background-size: 115% 100%;
 }
+.best a:nth-child(4):hover {
+  opacity: 30%;
+}
 
 .best a:nth-child(5) {
   background: url("../img/자료4.jpg") no-repeat;
   background-size: 115% 100%;
+}
+.best a:nth-child(5):hover {
+  opacity: 30%;
 }

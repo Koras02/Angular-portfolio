@@ -2,9 +2,6 @@
   position: relative;
   left: 12%;
   top: 50px;
-  opacity: 30%;
-}
-#video0:hover {
   opacity: 100%;
 }
 
