@@ -30,6 +30,7 @@ ul {
 #list ul li:nth-child(1) {
   position: relative;
   right: 3%;
+  background: url("../../../images/item1.jpg");
 }
 #list ul li:nth-child(2) {
   position: relative;

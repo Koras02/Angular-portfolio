@@ -3,7 +3,7 @@
   padding: 15px;
   height: 60vh;
   margin: auto;
-  overflow: hidden;
+  overflow-block: block;
 }
 .best h1 {
   text-align: center;
@@ -16,14 +16,15 @@
   border: 1px solid #000;
   padding: 90px;
   position: relative;
-  top: 12px;
-  left: 100px;
+  top: -20px;
+  left: 140px;
 }
 .best a:nth-child(2) {
   background: url("../img/자료1.jpg") no-repeat;
   background-size: 100% 100%;
-  position: relative;
-  right: -14px;
+  position: absolute;
+  top: 165%;
+  left: 70%;
 }
 .best a:nth-child(2):hover {
   opacity: 30%;
@@ -31,7 +32,9 @@
 .best a:nth-child(3) {
   background: url("../img/자료2.jpg") no-repeat;
   background-size: 120% 100%;
-  position: relative;
+  position: absolute;
+  top: 165%;
+  left: 50%;
 }
 .best a:nth-child(3):hover {
   opacity: 30%;
@@ -40,6 +43,9 @@
 .best a:nth-child(4) {
   background: url("../img/자료3.jpg") no-repeat;
   background-size: 115% 100%;
+  position: absolute;
+  top: 165%;
+  left: 30%;
 }
 .best a:nth-child(4):hover {
   opacity: 30%;
@@ -48,6 +54,9 @@
 .best a:nth-child(5) {
   background: url("../img/자료4.jpg") no-repeat;
   background-size: 115% 100%;
+  position: absolute;
+  top: 165%;
+  left: 10%;
 }
 .best a:nth-child(5):hover {
   opacity: 30%;
