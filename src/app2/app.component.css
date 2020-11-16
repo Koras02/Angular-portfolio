@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol,
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
